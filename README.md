@@ -1,4 +1,4 @@
-#### Проверка сборки
+#### Проверка сборки  [![Build status](https://ci.appveyor.com/api/projects/status/x8c1qh5dfe5900mp?svg=true)](https://ci.appveyor.com/project/usoltsevjr/carddelivery)
 
 # Домашнее задание к занятию «2.2. Selenide»
 
