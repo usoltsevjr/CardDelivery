@@ -33,11 +33,11 @@ public class CardDeliveryListTest {
 
         $("[data-test-id='city'] input").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id='city'] input").setValue("Са");
-        $$(".menu-item .menu-item__control").find(exactText("Санкт-Петербург")).click();
+        $$(".menu-item .menu-item__control").find(exactText("Сыктывкар")).click();
 
         $("[data-test-id='city'] input").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id='city'] input").setValue("Са");
-        $$(".menu-item .menu-item__control").find(exactText("Ярославль")).click();
+        $$(".menu-item .menu-item__control").find(exactText("Санкт-Петербург")).click();
     }
 
     @Test
